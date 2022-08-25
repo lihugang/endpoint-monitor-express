@@ -1,5 +1,5 @@
 {
-  "name": "@endpoint-monitor/express",
+  "name": "endpoint-monitor-express",
   "version": "1.0.0",
   "description": "Monitor for endpoint (EXPRESS)",
   "main": "dist/index.js",
@@ -37,5 +37,8 @@
   "dependencies": {
     "cookie-parser": "^1.4.6",
     "endpoint-monitor": "^1.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

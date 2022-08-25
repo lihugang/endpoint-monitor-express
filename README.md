@@ -14,7 +14,7 @@ How to use:
 const express = require('express');
 const app = express();
 
-const monitor = require('@endpoint-monitor/express');
+const monitor = require('endpoint-monitor-express');
 
 app.use(monitor());
 
