@@ -6,7 +6,7 @@
 ### 协议：MIT
 - - -
 Dependencies: 依赖：  
-- endpoint-monitor: `^1.0.2` offer basic functions 提供基本功能
+- (endpoint-monitor)[https://www.npmjs.org/endpoint-monitor]: `^1.0.2` offer basic functions 提供基本功能
 - cookie-parser: `^1.4.6` Cookie Parser Cookie解析 (Used for marking clients, 用于标记客户端)
 
 How to use:
