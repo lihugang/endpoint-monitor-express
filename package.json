@@ -1,0 +1,41 @@
+{
+  "name": "@endpoint-monitor/express",
+  "version": "1.0.0",
+  "description": "Monitor for endpoint (EXPRESS)",
+  "main": "dist/index.js",
+  "scripts": {
+    "ts": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lihugang/endpoint-monitor-express.git"
+  },
+  "keywords": [
+    "endpoint",
+    "monitor",
+    "qps",
+    "ip-banner",
+    "token-banner",
+    "pv",
+    "uv",
+    "dau",
+    "mau"
+  ],
+  "author": "lihugang",
+  "license": "MIT",
+  "types": "./pack/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/lihugang/endpoint-monitor-express/issues"
+  },
+  "homepage": "https://github.com/lihugang/endpoint-monitor-express#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "express": "^4.18.1",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "endpoint-monitor": "^1.0.2"
+  }
+}
